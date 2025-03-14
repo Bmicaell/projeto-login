@@ -11,6 +11,10 @@
 * {
     margin: 0px;
     padding: 0px;
+
+    box-sizing: border-box;
+
+    font-family: var(--font01);
 }
 
 :root {
@@ -21,129 +25,52 @@
 
 }
 
-body {
+body, html {
     background-color: var(--cor02);
 
-    font-family: var(--font01);
-
-    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 main {
-    width: 80vw;
-    height: 600px;
+    position: relative;
 
-    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 
     background-color: white;
 
-    position: absolute;
+    width: 250px;
+    height: 500px;
 
-    left: 50%;
-    top: 50%;
+    border-radius: 20px;
 
-    transform: translate(-50%, 05%);
-    
+    overflow: hidden;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 
 
-div#imagem > img {
+section#login > div#imagem {
     display: block;
-    
-   
-    width: 100%;
-    height: 210px;
+    background: var(--cor02) url(../imagens/quadro.jpg);
 
-    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    background-size: cover;
 }
 
-section div#formulario {
+section#login > div#formulario {
+    display: block;
     padding: 10px;
-
-}
-
-div > h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-
-form > p.box {
-    background-color: #5f2c82;
-
-    margin-bottom: 10px;
-
-    border-radius: 10px;
-
-    width: 280px;
-}
-
-p {
-    margin-bottom: 10px;
-}
-
-p > input {
-    width: 230px;
-
-    height:50px;
-
-    border-radius: 10px;
-
-    background-color: #c4e6e3;
-
-}
-
-
-
-p > span {
-    padding: 8px;
-
-    color:white;
-}
-
-p#button-entrar > input {
-    width: 275px;
-
-    background-color: #49a09d;
-
-    color: white;
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    border-radius: 30px;
-    
-    cursor: pointer;
-}
-
-p#button-entrar > input:hover {
-    background-color:  #68c9c5;
-}
-
-p#button-password > input {
-    width: 275px;
-
-    background-color: #ffffff00;
-
-    color: black;
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    border-radius: 30px;
-    
-    cursor: pointer;
-}
-
-p#button-password > input:hover {
-    background-color: #8f50b9;
-
-    color: white;
-}
-
-
-div#footer {
-    text-align: center;
-
-    margin-top: 10px;
-
-    
 }
