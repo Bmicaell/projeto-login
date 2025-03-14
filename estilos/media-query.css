@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+    Palete de cores
+    verde: #49a09d
+    lilás: #5f2c82
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+
+    --font01: "Roboto", sans-serif;
+
+}
+
 /*  Typical Device Breakpoints 
 Pequenas Telas: ate é 600px
 Celular: de 600px ate 768px
@@ -9,6 +30,14 @@ Grandes telas: Acima de 1200px
 
 */
 
-@media screen and (min-width: 768) {
-    
+@media screen and (min-width: 768px) {
+
+    body {
+        background: linear-gradient(to left, blue, red);
+    }
+
+    main {
+        width: 768px;
+        background: linear-gradient(to left, blue, red);
+    }
 }
