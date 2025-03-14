@@ -30,14 +30,15 @@ Grandes telas: Acima de 1200px
 
 */
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 768px){
     body {
-        background: linear-gradient(to left, blue, red);
+        background-color: #49a09d;
     }
 
     main {
-        width: 768px;
-        background: linear-gradient(to left, blue, red);
+        width:1500px;
     }
+
+   
+    
 }

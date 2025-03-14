@@ -52,7 +52,7 @@ div#imagem > img {
     
    
     width: 100%;
-    height: 200px;
+    height: 210px;
 
     border-radius: 20px 20px 0px 0px;
 }
@@ -75,7 +75,7 @@ form > p.box {
 
     border-radius: 10px;
 
-    
+    width: 280px;
 }
 
 p {
@@ -89,7 +89,11 @@ p > input {
 
     border-radius: 10px;
 
+    background-color: #c4e6e3;
+
 }
+
+
 
 p > span {
     padding: 8px;
@@ -104,11 +108,15 @@ p#button-entrar > input {
 
     color: white;
 
-    font-family: var(--font01);
+    font-family: Arial, Helvetica, sans-serif;
 
     border-radius: 30px;
     
     cursor: pointer;
+}
+
+p#button-entrar > input:hover {
+    background-color:  #68c9c5;
 }
 
 p#button-password > input {
@@ -118,11 +126,17 @@ p#button-password > input {
 
     color: black;
 
-    font-family: var(--font01);
+    font-family: Arial, Helvetica, sans-serif;
 
     border-radius: 30px;
     
     cursor: pointer;
+}
+
+p#button-password > input:hover {
+    background-color: #8f50b9;
+
+    color: white;
 }
 
 
