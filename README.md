@@ -25,7 +25,7 @@ Este é um projeto simples de uma tela de login desenvolvida utilizando apenas H
    ```
 2. 📂 Navegue até a pasta do projeto:
    ```bash
-   cd tela-de-login
+   cd projeto-login
    ```
 3. 🌐 Abra o arquivo `index.html` no navegador.
 
